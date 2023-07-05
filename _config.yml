@@ -36,7 +36,7 @@ youtube_username                          :
 features                                  :
 
   - title                                 : Accurate Gameplay
-    description                           : Bomb Flip faithfully recreates the gameplay mechanics found in similar, classic mobile games.
+    description                           : Bomb Flip faithfully recreates the gameplay mechanics found in <a href="https://bulbapedia.bulbagarden.net/wiki/Voltorb_Flip">similar, classic mobile games</a>.
     # Pokémon HeartGold and SoulSilver
     # Inspired by Voltorb Flip from Pokémon HeartGold and SoulSilver, Bomb Flip is a faithful recreation of the gameplay mechanics found in the original.
     fontawesome_icon_name                 : gamepad
@@ -44,6 +44,26 @@ features                                  :
   - title                                 : Item Shop
     description                           : Using Coins earned from gameplay (and daily giveaways), unique items can be purchased to make gameplay more interesting
     fontawesome_icon_name                 : shop
+
+  - title                                 : Modernized for iOS
+    description                           : Adapted for comfortable gameplay on iOS, Bomb Flip is made using SwiftUI and SpriteKit
+    fontawesome_icon_name                 : mobile
+
+  - title                                 : Haptics-backed SFX
+    description                           : Included Sound Effects with Haptic Feedback will amplify your nostalgia
+    fontawesome_icon_name                 : file-audio
+  
+  - title                                 : Original Soundtrack
+    description                           : Original Soundtrack produced by <a href="https://socksedm.com/">socks.</a> will bring you back to the <a href="https://bulbapedia.bulbagarden.net/wiki/Game_Corner">Game Corner</a>.
+    fontawesome_icon_name                 : music
+
+  - title                                 : GameCenter Integration
+    description                           : Compete on multiple global leaderboards and unlock unique Ribbons (Achievements) to commemorate your accomplishments.
+    fontawesome_icon_name                 : trophy
+
+  - title                                 : Guide Included
+    description                           : New to Bomb Flip? A comprehensive Help section is included to help get you on your feet.
+    fontawesome_icon_name                 : info-circle
 
   - title                                 : iCloud Sync
     description                           : Progress throughout the game is automatically saved to iCloud and synced to your other devices
@@ -53,20 +73,8 @@ features                                  :
     description                           : You are not the product, the app is. Buy once and keep forever.
     fontawesome_icon_name                 : ban
 
-  - title                                 : BGM + SFX
-    description                           : Included Music and Sound Effects will amplify your nostalgia
-    fontawesome_icon_name                 : file-audio
-
-  - title                                 : Modernized for iOS
-    description                           : Adapted for comfortable gameplay on iOS, Bomb Flip is made entirely using SwiftUI and iOS 15 APIs
-    fontawesome_icon_name                 : mobile
-
-  - title                                 : Guide Included
-    description                           : New to Bomb Flip? A comprehensive Help section is included to help get you on your feet.
-    fontawesome_icon_name                 : info-circle
-
   - title                                 : iPad + Apple Silicon support
-    description                           : iPads and Apple Silicon Macs are supported and welcome
+    description                           : iPads and Apple Silicon Macs are supported and welcome. (Native apps coming soon)
     fontawesome_icon_name                 : laptop
 
   - title                                 : Indie Developed
