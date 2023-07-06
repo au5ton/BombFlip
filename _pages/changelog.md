@@ -20,7 +20,7 @@ This update focuses on bug fixes and quality-of-life changes that have come up s
   - Links to: `Rate the App`, `Report a Bug`, `Suggest New Changes`, and to `Discuss on Discord`
 
 #### Quality-of-Life changes
-- Bomb Scanner algorithm tweaked by be more helpful and to (virtually) never fail (Issue #163 and #171)
+- Bomb Scanner algorithm tweaked to be more helpful and to (virtually) never fail (Issue #163 and #171)
 - When an entire row/column is tapped to be memoed, and the row/column is already partially memoed, only update the un-memoed tiles (Issue #174)
 - iCloud Sync indicator removed from the Game View to prevent confusion (Issue #177)
 
