@@ -2,7 +2,8 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-$body-color: {{ site.body_background_color }};
+//$body-color: {{ site.body_background_color }};
+$body-color: var(--color-canvas-default);
 
 $header-image: "{{ site.cover_image }}";
 $device-color: "assets/{{ site.device_color }}.png";
@@ -14,9 +15,12 @@ $app-title-color: {{ site.app_title_color }};
 $app-price-color: {{ site.app_price_color }};
 $app-description-color: {{ site.app_description_color }};
 
-$feature-title-color: {{ site.feature_title_color }};
-$feature-text-color: {{ site.feature_text_color }};
-$footer-text-color: {{ site.footer_text_color }};
+//$feature-title-color: {{ site.feature_title_color }};
+$feature-title-color: var(--color-fg-default);
+//$feature-text-color: {{ site.feature_text_color }};
+$feature-text-color: var(--color-fg-muted);
+//$footer-text-color: {{ site.footer_text_color }};
+$footer-text-color: var(--color-fg-subtle);
 
 $header_color: {{ site.topbar_color }};
 $header_transparency: {{ site.topbar_transparency }};
@@ -25,7 +29,8 @@ $image-overlay-color: {{ site.cover_overlay_color }};
 $image-overlay-transparency: {{ site.cover_overlay_transparency }};
 
 $feature-icons-foreground-color: {{ site.feature_icons_foreground_color }};
-$feature-icons-background-color: {{ site.feature_icons_background_color }};
+//$feature-icons-background-color: {{ site.feature_icons_background_color }};
+$feature-icons-background-color: var(--color-neutral-muted);
 
 $social-icons-foreground-color: {{ site.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.social_icons_background_color }};

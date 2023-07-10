@@ -1,3 +1,15 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --iphone-mockup: url(assets/blue.png);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --iphone-mockup: url(assets/black.png);
+  }
+}
+
 .imageWrapper {					// Sets the background image in the header area
 	height: 714px;
 	background: 
@@ -29,7 +41,8 @@
 }
 
 .subPageHeaderBackground {
-	background-color: #fff;
+	//background-color: #fff;
+	background-color: $body-color;
 }
 
 .container {					// Set up the container for the site content
@@ -50,7 +63,8 @@
 
 .subPageContainer {
 	grid-template-rows: 115px auto auto auto;
-	background-color: #fff;
+	//background-color: #fff;
+	background-color: $body-color;
 }
 
 @media only screen and (max-width: 768px) {
@@ -225,17 +239,23 @@ nav > ul li a:active {
 
 // Sub Page Header Styling
 .subPageHeaderBackground .logo > p {
-	color: #000;
+	//color: #000;
+	//color: $header-title-color;
+	color: var(--color-fg-default);
 }
 
 .subPageHeaderBackground nav > ul li a:link,
 .subPageHeaderBackground nav > ul li a:visited {
 	color: rgba(#000, 0.6);
+	color: var(--color-fg-default);
+	opacity: 0.6;
 }
 
 .subPageHeaderBackground nav > ul li a:hover,
 .subPageHeaderBackground nav > ul li a:active {
 	color: rgba(#000, 1);
+	color: var(--color-fg-default);
+	opacity: 1.0;
 }
 
 
@@ -336,6 +356,10 @@ nav > ul li a:active {
 .downloadButtonsContainer {
 	display: inline-block;
 	margin-top: 42px;
+	//filter: $drop-shadow;
+}
+
+.downloadButtonsContainer img {
 	filter: $drop-shadow;
 }
 
@@ -380,7 +404,7 @@ nav > ul li a:active {
 
 .iphonePreview {
 	grid-area: p;
-	background-image: url($device-color);
+	background-image: var(--iphone-mockup);
 	background-size: 400px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
