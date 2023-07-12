@@ -9,22 +9,30 @@ These are the past updates to Bomb Flip and their list of changes.
 
 <br>
 
-### `🛠️ In Development`
+### `Latest`
 # **Version 1.0.2**
 Release Date: TBD
 
 This update focuses on bug fixes and quality-of-life changes that have come up since our last update.
 
 #### What's New
-- TBD
+- Added "Highest Level Reached" leaderboard
+- New particle effects have been added throughout the app. Examples: when purchasing an item, and going up/down a level.
 
 #### Quality-of-Life changes
-- TDB
+- In the Settings, audio volume sliders now scale logarithmicly. This may mean that your audio settings will need to be adjusted to be more closely to what they previously where.
+- Adjusted behavior when an entire row/column is memoed
+- Item Shop "Buy" button is more accessible to users who play without audio, or are hard of hearing.
+- Item Shop "Buy" button has been adjusted to prevent accidental purchases and to make it's actions more clear.
+- GameCenter will now occassionally show "Highlights"
 
 #### Bug Fixes
-- TDB
+- Markdown text is rendered correctly in dark mode
+- Smartphone item description updated reflect an already fixed bug
+- Fixed bug where memoing a row/column didn't work if some of the tiles were already flipped
+- Attempted to fix bug where the GameCenter access point would go missing
+- Attempted to fix bug where a concurrency issue could cause sound effects within the app to be randomly loud
 
-### `Latest`
 # **Version 1.0.1**
 Release Date: July 6, 2023
 
