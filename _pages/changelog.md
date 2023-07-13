@@ -11,7 +11,7 @@ These are the past updates to Bomb Flip and their list of changes.
 
 ### `Latest`
 # **Version 1.0.2**
-Release Date: TBD
+Release Date: July 13, 2023
 
 This update focuses on bug fixes and quality-of-life changes that have come up since our last update.
 
