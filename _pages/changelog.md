@@ -11,7 +11,7 @@ These are the past updates to Bomb Flip and their list of changes.
 
 ### `Latest`
 # **Version 1.0.3**
-Release Date: TBD
+Release Date: August 26, 2023
 
 This update focuses on a bug where background audio from other apps wasn't being allowed to play while Bomb Flip was open.
 
