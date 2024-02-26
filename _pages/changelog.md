@@ -10,6 +10,11 @@ These are the past updates to Bomb Flip and their list of changes.
 <br>
 
 ### `Latest`
+# **Version 1.0.4**
+- Added links to the game's official soundtrack
+
+Many thanks to the musician behind the soundtrack, socks.! If you enjoy the soundtrack, please consider supporting the creator.
+
 # **Version 1.0.3**
 Release Date: August 26, 2023
 
