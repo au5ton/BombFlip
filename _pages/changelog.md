@@ -26,6 +26,10 @@ Release Date: TBD
 - Fixed bug where the Manual Items button would not work sometimes (#214)
 - Fixed bug where the Item Description sheet failed to open on iOS 18 sometimes (#211)
 
+Thank you for your patience in waiting for this update.
+Bomb Flip is developed independently and is wonderful hobby of mine, but is still a hobby and not my primary source of income.
+Your continued feedback and support is genuinely appreciated.
+
 # **Version 1.0.4**
 Release Date: February 25, 2024
 
