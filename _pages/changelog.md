@@ -10,6 +10,26 @@ These are the past updates to Bomb Flip and their list of changes.
 <br>
 
 ### `Latest`
+# **Version 1.0.5**
+Release Date: TBD
+
+#### What's New
+- Added option to use "Advanced Memos" which allows all 4 original types instead of the 2 simplified (#212)
+- Added option to disable Alerts between rounds (#217)
+
+#### Quality-of-Life changes
+- Improved UX of when an item fails to activate (currently only applicable to Bomb Scanner) (#213)
+- Triggering an Easter Egg will show a notification of what you triggered (#196)
+- Added "Android" Easter Egg (#195)
+
+#### Bug Fixes
+- Fixed bug where the Manual Items button would not work sometimes (#214)
+- Fixed bug where the Item Description sheet failed to open on iOS 18 sometimes (#211)
+
+Thank you for your patience in waiting for this update.
+Bomb Flip is developed independently and is wonderful hobby of mine, but is still a hobby and not my primary source of income.
+Your continued feedback and support is genuinely appreciated.
+
 # **Version 1.0.4**
 Release Date: February 25, 2024
 
