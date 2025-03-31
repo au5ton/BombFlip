@@ -10,8 +10,14 @@ These are the past updates to Bomb Flip and their list of changes.
 <br>
 
 ### `Latest`
-# **Version 1.0.5**
+# **Version 1.0.6**
 Release Date: TBD
+
+#### Bug Fixes
+- Fixed an issue where interacting with other parts of the UI while performing an Advanced Memo would cause the tile to be stuck in a "big" state (#220)
+
+# **Version 1.0.5**
+Release Date: February 28, 2025
 
 #### What's New
 - Added option to use "Advanced Memos" which allows all 4 original types instead of the 2 simplified (#212)
