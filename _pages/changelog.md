@@ -10,8 +10,14 @@ These are the past updates to Bomb Flip and their list of changes.
 <br>
 
 ### `Latest`
+# **Version 1.0.7**
+Release Date: May 19, 2025
+
+#### Bug Fixes
+- Fixed an issue new installs were showing the tutorial after every launch (#221)
+
 # **Version 1.0.6**
-Release Date: TBD
+Release Date: April 1, 2025
 
 #### Bug Fixes
 - Fixed an issue where interacting with other parts of the UI while performing an Advanced Memo would cause the tile to be stuck in a "big" state (#220)
