@@ -14,7 +14,7 @@ These are the past updates to Bomb Flip and their list of changes.
 Release Date: May 19, 2025
 
 #### Bug Fixes
-- Fixed an issue new installs were showing the tutorial after every launch (#221)
+- Fixed an issue where new installs were showing the tutorial after every launch (#221)
 
 # **Version 1.0.6**
 Release Date: April 1, 2025
